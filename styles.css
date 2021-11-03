@@ -1,0 +1,38 @@
+body, html {
+    background-color: hsl(185, 75%, 39%);
+    line-height: 1.5;
+    font-family: 'Kamda Sans', sans-serif;
+}
+
+p {
+    color: hsl(0, 0%, 59%);
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+}
+
+.statsbox {
+    display: flex;
+    flex-direction: column;
+}
+
+#stats {
+    display: flex;
+}
+
+#vicpic {
+    position: absolute;
+
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+#header {
+    position: relative;
+}
+
